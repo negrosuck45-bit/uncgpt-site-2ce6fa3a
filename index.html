@@ -3,19 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A modern personal portfolio website.">
-  <title>Your Name — Portfolio</title>
+  <meta name="description" content="An unofficial Grand Theft Auto VI visual presentation created by uncgpt.">
+  <title>Grand Theft Auto VI — Unofficial Showcase</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header"><a class="brand" href="#top">Your Name</a><nav><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav></header>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#top">UNC<span>/</span>SHOWCASE</a>
+    <p>Unofficial concept presentation</p>
+  </header>
   <main id="top">
-    <section class="hero"><p class="eyebrow">Hello, I’m</p><h1>Your Name<span>.</span></h1><p class="lede">Designer, developer, and creative problem solver.</p><div class="actions"><a class="button primary" href="#work">View my work</a><a class="button" href="#contact">Let’s talk</a></div></section>
-    <section id="work" class="section"><div class="section-heading"><p class="eyebrow">Selected work</p><h2>Ideas made useful.</h2></div><div class="work-grid"><article class="project"><div class="project-art gradient-one"></div><h3>Project One</h3><p>A thoughtful digital experience built around clarity and momentum.</p></article><article class="project"><div class="project-art gradient-two"></div><h3>Project Two</h3><p>A flexible visual system that makes complex things feel simple.</p></article><article class="project"><div class="project-art gradient-three"></div><h3>Project Three</h3><p>A responsive product that turns good ideas into real outcomes.</p></article></div></section>
-    <section id="about" class="section split"><div><p class="eyebrow">About</p><h2>Curious by nature. Focused on the details.</h2></div><p>I combine strategy, design, and technology to create work that feels clear, useful, and distinctly human.</p></section>
-    <section id="contact" class="contact-card"><p class="eyebrow">Have a project in mind?</p><h2>Let’s make something great.</h2><a class="button primary" href="mailto:hello@example.com">hello@example.com</a></section>
+    <section class="slide hero" aria-labelledby="hero-title">
+      <p class="kicker"><span>01</span>The next escape</p>
+      <h1 id="hero-title">GRAND<br><strong>THEFT</strong><br>AUTO <em>VI</em></h1>
+      <p class="intro">A neon-drenched, high-velocity presentation inspired by the promise of an open road, a coastal skyline, and one more unforgettable score.</p>
+      <div class="actions">
+        <a class="button primary" href="#city">Enter the presentation</a>
+        <button id="sound-toggle" class="button" type="button" aria-pressed="false">Soundtrack off</button>
+      </div>
+      <p class="disclaimer">Fan-made visual concept · Not affiliated with Rockstar Games</p>
+      <a class="scroll" href="#city">SCROLL <span>↓</span></a>
+    </section>
+
+    <section id="city" class="slide city" aria-labelledby="city-title">
+      <div class="section-top"><p class="kicker"><span>02</span>After dark</p><p>01 / 04</p></div>
+      <div class="city-grid">
+        <div>
+          <h2 id="city-title">A CITY<br>THAT NEVER<br><i>LOOKS AWAY.</i></h2>
+          <p class="body-copy">Pastel heat meets midnight chrome. This is a fictional showcase of ambition, excess, and the strange calm before everything goes loud.</p>
+        </div>
+        <div class="poster" aria-label="Abstract neon coastal poster">
+          <span class="poster-tag">VICE // AFTER HOURS</span>
+          <span class="sun" aria-hidden="true"></span>
+          <span class="palm one" aria-hidden="true">✦</span>
+          <span class="palm two" aria-hidden="true">✦</span>
+          <span class="poster-caption">COASTAL<br>STATIC</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide moments" aria-labelledby="moments-title">
+      <div class="section-top"><p class="kicker"><span>03</span>The rhythm</p><p>02 / 04</p></div>
+      <h2 id="moments-title">FOUR WAYS<br>TO LOSE THE MAP.</h2>
+      <div class="grid">
+        <article><span>01</span><h3>Neon pursuit</h3><p>Every shortcut leaves a trace of pink light in the rear-view mirror.</p></article>
+        <article><span>02</span><h3>Open water</h3><p>A clean horizon, a fast engine, and nowhere you have to be.</p></article>
+        <article><span>03</span><h3>Bad timing</h3><p>The plan was simple—right until the city started answering back.</p></article>
+        <article><span>04</span><h3>New rules</h3><p>Make the score, own the moment, disappear before sunrise.</p></article>
+      </div>
+    </section>
+
+    <section class="slide final" aria-labelledby="final-title">
+      <p class="kicker"><span>04</span>One more run</p>
+      <h2 id="final-title">THE CITY<br>IS <i>CALLING.</i></h2>
+      <p>Grand Theft Auto VI, reimagined here as a one-page visual teaser. Built specifically as a presentation experience—not a personal portfolio.</p>
+      <a class="button primary" href="#top">Replay from the top</a>
+    </section>
   </main>
-  <footer><span>© <span id="year"></span> Your Name</span><a href="#top">Back to top ↑</a></footer>
+  <footer><span>UNC GPT · 2026</span><span>UNOFFICIAL FAN CONCEPT</span></footer>
   <script src="script.js"></script>
 </body>
 </html>
